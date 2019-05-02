@@ -130,3 +130,19 @@ span.result {
   transform: translateY(-100%);
 }
 
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 450px;
+  }
+  header {
+    font-size: .8rem;
+  }
+  body {
+    font-size: .9rem;
+  }
+  select {
+    font-size: .8rem;
+    width: 23%!important;
+  }
+}
